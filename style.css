@@ -1,1 +1,19 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Be Vietnam Pro', sans-serif; /* Putting here temporarily */
+}
 
+:root {
+    /* Colors */
+    --primary-bright-red: 12 88% 59%;
+    --primary-dark-blue: 228 39% 23%;
+    
+    --secondary-dark-grayish-blue: 227 12% 61%;
+    --secondary-very-dark-blue: 233 12% 13%;
+    --secondary-very-pale-red: 13 100% 96%;
+    --secondary-very-light-gray: 0 0% 98%;
+}
