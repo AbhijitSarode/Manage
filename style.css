@@ -17,3 +17,42 @@
     --secondary-very-pale-red: 13 100% 96%;
     --secondary-very-light-gray: 0 0% 98%;
 }
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas:
+        "intro1 intro-img"
+        "intro2 intro3"
+        "testimonial testimonial"
+        "footer footer";
+}
+
+.intro1 {
+    grid-area: intro1;
+}
+
+.intro2 {
+    grid-area: intro2;
+}
+
+.intro3 {
+    grid-area: intro3;
+}
+
+.intro-img {
+    grid-area: intro-img;
+}
+
+.testimonial {
+    grid-area: testimonial;
+}
+
+footer {
+    grid-area: footer;
+}
+
+.testimonial-flex {
+    display: flex;
+}
